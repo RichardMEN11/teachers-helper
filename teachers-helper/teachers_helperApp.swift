@@ -13,8 +13,7 @@ struct teachers_helperApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+         ImageViewWithPicker()
         }
     }
 }

@@ -13,6 +13,7 @@
 		5051F35B2A86985A002BB927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5051F35A2A86985A002BB927 /* Preview Assets.xcassets */; };
 		5051F35D2A86985A002BB927 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051F35C2A86985A002BB927 /* Persistence.swift */; };
 		5051F3602A86985A002BB927 /* teachers_helper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5051F35E2A86985A002BB927 /* teachers_helper.xcdatamodeld */; };
+		5051F3692A86AABF002BB927 /* ImageViewWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051F3682A86AA43002BB927 /* ImageViewWithPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		5051F35C2A86985A002BB927 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5051F35F2A86985A002BB927 /* teachers_helper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = teachers_helper.xcdatamodel; sourceTree = "<group>"; };
 		5051F3612A86985A002BB927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5051F3672A8698ED002BB927 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5051F3682A86AA43002BB927 /* ImageViewWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewWithPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		5051F3472A86985A002BB927 = {
 			isa = PBXGroup;
 			children = (
+				5051F3672A8698ED002BB927 /* README.md */,
 				5051F3522A86985A002BB927 /* teachers-helper */,
 				5051F3512A86985A002BB927 /* Products */,
 			);
@@ -57,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				5051F3532A86985A002BB927 /* teachers_helperApp.swift */,
+				5051F3682A86AA43002BB927 /* ImageViewWithPicker.swift */,
 				5051F3552A86985A002BB927 /* ContentView.swift */,
 				5051F3572A86985A002BB927 /* Assets.xcassets */,
 				5051F35C2A86985A002BB927 /* Persistence.swift */,
@@ -148,6 +153,7 @@
 				5051F35D2A86985A002BB927 /* Persistence.swift in Sources */,
 				5051F3562A86985A002BB927 /* ContentView.swift in Sources */,
 				5051F3602A86985A002BB927 /* teachers_helper.xcdatamodeld in Sources */,
+				5051F3692A86AABF002BB927 /* ImageViewWithPicker.swift in Sources */,
 				5051F3542A86985A002BB927 /* teachers_helperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
